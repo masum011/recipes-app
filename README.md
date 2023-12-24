@@ -1,5 +1,5 @@
 # Clone the repository
-git clone https://github.com/your-username/recipes-app.git
+git clone : https://github.com/masum011/recipes-app.git
 
 # Navigate to the project directory
 cd recipes-app
