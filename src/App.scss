@@ -30,7 +30,7 @@ p {
   padding: 10px 0;
   font-size: 35px;
   text-align: center;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
   color: #6fcb9f;
   
   @include medium {
@@ -72,6 +72,19 @@ p {
   }
 }
 
+.favorite-cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  p{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
 .flexbox {
   display: flex;
   flex-flow: wrap;
@@ -100,6 +113,10 @@ p {
         width: 100%;
       }
     }
+    .title-favorite{
+      display: flex;
+      justify-content: space-between;
+    }
 
     p {
       color: #29336b;
@@ -107,6 +124,7 @@ p {
     }
   }
 }
+
 
 .loader {
   width: 100%;
